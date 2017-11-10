@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Test iOS(failed)" parallel="tests">
+    <parameter name="appName" value="io.ionic.starter"/>
+    <parameter name="deviceID" value="0715F7752C4B3038"/>
+    <parameter name="mobileOS" value="Android"/>
+    <classes>
+      <class name="com.IHG.tests.Scenario6">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="scenario6"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.IHG.tests.Scenario6 -->
+    </classes>
+  </test> <!-- Test iOS(failed) -->
+</suite> <!-- Failed suite [Suite] -->

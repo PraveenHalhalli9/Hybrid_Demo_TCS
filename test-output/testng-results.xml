@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31037" started-at="2017-11-03T08:37:32Z" finished-at="2017-11-03T08:38:03Z">
+    <groups>
+    </groups>
+    <test name="Test iOS" duration-ms="31037" started-at="2017-11-03T08:37:32Z" finished-at="2017-11-03T08:38:03Z">
+      <class name="com.IHG.tests.Scenario6">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.IHG.tests.Scenario6@5700d6b1]" name="beforeTest" is-config="true" duration-ms="4114" started-at="2017-11-03T14:07:32Z" finished-at="2017-11-03T14:07:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0715F7752C4B3038]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[io.ionic.starter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="scenario6(java.lang.String)[pri:0, instance:com.IHG.tests.Scenario6@5700d6b1]" name="scenario6" duration-ms="18839" started-at="2017-11-03T14:07:36Z" finished-at="2017-11-03T14:07:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario6 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.IHG.tests.Scenario6@5700d6b1]" name="afterTest" is-config="true" duration-ms="8068" started-at="2017-11-03T14:07:54Z" finished-at="2017-11-03T14:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.IHG.tests.Scenario6 -->
+    </test> <!-- Test iOS -->
+  </suite> <!-- Suite -->
+</testng-results>
