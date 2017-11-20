@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="tests">
 	<test name="Test iOS">
-		<parameter name="deviceID" value="0715F7752C4B3038" />
+		<parameter name="deviceID" value="02157DF2A1B46C22" />
 		<parameter name="appName" value="io.ionic.starter" />
 		<parameter name="mobileOS" value="Android" />		
 		<classes>
