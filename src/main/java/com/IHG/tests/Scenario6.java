@@ -56,6 +56,7 @@ public class Scenario6 {
 			reportiumClient.testStart("IHG Demo", new TestContext("IHG", "smoketest"));
 					// this is a logical step for reporting
 			
+		        driver.resetApp();
 			
 			driver.getContext();
 			System.out.println(driver.getContextHandles().size());
