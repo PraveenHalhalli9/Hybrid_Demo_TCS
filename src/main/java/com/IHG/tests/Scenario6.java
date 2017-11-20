@@ -58,14 +58,14 @@ public class Scenario6 {
 			
 		        driver.resetApp();
 			
-			driver.getContext();
-			System.out.println(driver.getContextHandles().size());
+// 			driver.getContext();
+// 			System.out.println(driver.getContextHandles().size());
 			
-			Set<String> a = driver.getContextHandles();
-			for(String b:a)
-				System.out.println(b);
-			driver.context("WEBVIEW");
-			System.out.println(driver.getPageSource());
+// 			Set<String> a = driver.getContextHandles();
+// 			for(String b:a)
+// 				System.out.println(b);
+// 			driver.context("WEBVIEW");
+// 			System.out.println(driver.getPageSource());
 			homeScreenPageObject.enterUsername();
 			
 			driver.context("WEBVIEW");
